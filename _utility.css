@@ -1,0 +1,1463 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+    scroll-behavior: smooth !important;
+}
+
+.text_white {
+    color: var(--text-white);
+}
+
+.text_gray7 {
+    color: var(--text-gray7);
+}
+
+.text_gray8 {
+    color: var(--text-gray8);
+}
+
+.text_purple {
+    color: var(--text-purple);
+}
+
+.bg_light1 {
+    background-color: var(--bg-light1);
+}
+
+.bg_light5 {
+    background-color: var(--bg-light5);
+}
+
+.bg_black {
+    background-color: var(--bg-black);
+}
+
+.bg_darkblue {
+    background-color: var(--bg-darkblue);
+}
+
+.bg_darkblue2 {
+    background-color: var(--bg-darkblue2);
+}
+
+.bg_lightblue {
+    background-color: var(--bg-lightblue);
+}
+
+.bg_white {
+    background-color: var(--bg-white);
+}
+
+.bg_img1 {
+    background-image: url(./dist/assets/images/png/bg_img.png);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(./dist/assets/images/svg/threelines.svg) !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: #9581FF !important;
+    border-color: #9581ff !important;
+    border-radius: 10px !important;
+}
+
+.border1 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.border_radius10 {
+    border-radius: 10px;
+}
+
+.border_radius8 {
+    border-radius: 8px;
+}
+
+.border_radius20 {
+    border-radius: 20px;
+}
+
+.lh_160 {
+    line-height: 160%;
+}
+
+.bttn {
+    padding: 12px 16px;
+    background-color: var(--bg-purple);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-2);
+
+}
+
+.bttn2 {
+    padding: 12px 16px;
+    background-color: var(--bg-lightblue);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.bttn2:hover {
+    color: var(--text-gray7);
+}
+
+.object_fit {
+    object-fit: cover;
+}
+
+.card1 {
+    transition: 2s;
+}
+
+.card1:hover {
+    transform: scale(1.3);
+}
+
+
+
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-5 {
+    position: relative;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-5::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #9581FF;
+    top: 14px;
+    bottom: -140px;
+    left: auto;
+    margin-left: -3px;
+    z-index: 2;
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-6 {
+    position: relative;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-6::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 100px;
+    bottom: -20px;
+    left: 1px;
+    margin-left: -3px;
+}
+
+/* Container around content */
+.timeline-5 {
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+
+/* The circles on the timeline */
+.timeline-5::after {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: 1px;
+    background-color: var(--bg-purple);
+    top: 0px;
+    border-radius: 50%;
+    /* border: 5px solid #1C1744; */
+    z-index: 2;
+}
+
+/* Container around content */
+.timelining-6 {
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+
+/* The circles on the timeline */
+.timelining-6::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -16.5px;
+    background-color: #1C1744;
+    top: -7px;
+    border-radius: 50%;
+    /* border: 5px solid #1C1744; */
+    z-index: 1;
+}
+
+/* Container around content */
+.roadmap-5 {
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+
+/* The circles on the timeline */
+.roadmap-5::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -16.5px;
+    background-color: #ffffff;
+    opacity: 0.2;
+    top: -7px;
+    border-radius: 50%;
+    /* border: 5px solid #1C1744; */
+    z-index: 1;
+}
+
+/* Container around content */
+.roadmap-5 {
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+
+/* The circles on the timeline */
+.roadmap-5::after {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: 1px;
+    background-color: var(--bg-white);
+    top: 0px;
+    border-radius: 50%;
+    /* border: 5px solid #1C1744; */
+    z-index: 2;
+}
+
+/* Container around content */
+.roadmap-img {
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+
+/* The circles on the timeline
+.roadmap-img::after {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: 1px;
+    background-image: url(./dist/assets/images/png/);
+    top: 0px;
+    border-radius: 50%;
+    /* border: 5px solid #1C1744; */
+/* z-index: 2;
+} */
+
+
+/* Place the container to the right */
+.right-5 {
+    padding: 0px 0px 20px 40px;
+    left: auto;
+}
+
+/* Add arrows to the right container (pointing left) */
+/* .right-5::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #fff;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fff transparent transparent;
+} */
+
+/* Fix the circle for containers on the right side */
+.right-5::after {
+    left: -10px;
+}
+
+/* .right-6::after {
+    left: -14px;
+} */
+
+@media (max-width: 991px) {
+    .main-timeline-5 {
+        max-width: 100%;
+    }
+}
+
+.gradient-custom-5 {
+    /* fallback for old browsers */
+    background: #ebbba7;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(235, 187, 167, 1), rgba(207, 199, 248, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(235, 187, 167, 1), rgba(207, 199, 248, 1))
+}
+
+.a_color:hover {
+    color: var(--text-gray7);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--text-gray8) !important;
+    background-color: var(--bg-lightblue) !important;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%) !important;
+}
+
+.accordion-item {
+    background-color: var(--bg-lightblue) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(./dist/assets/images/svg/minus-icon.svg) !important;
+    transform: rotate(-180deg) !important;
+}
+
+.accordion-button::after {
+    flex-shrink: 0 !important;
+    width: 1.25rem !important;
+    height: 1.25rem !important;
+    margin-left: auto !important;
+    content: "" !important;
+    background-image: url(./dist/assets/images/svg/plus-icon.svg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.25rem !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px 25px !important;
+    font-size: 1rem !important;
+    font-weight: var(--fs-1) !important;
+    color: var(--text-gray8) !important;
+    text-align: left;
+    background-color: var(--bg-lightblue) !important;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+}
+
+.max_width {
+    max-width: 1320px;
+
+}
+
+
+.form {
+    padding: 10px 12px !important;
+}
+
+.search input {
+    padding: 10px 16px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6) !important;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+    /* max-width: 500px; */
+}
+
+.linear_box {
+    width: 85%;
+    border-radius: 10px;
+    background: linear-gradient(96.43deg, #7B61FF -3.99%, #EB568B 47.99%, #F37221 103.69%);
+
+}
+
+.bttn3 {
+    padding: 12px 16px;
+    background-color: var(--bg-white);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-2);
+    color: var(--text-purple);
+    border-radius: 8px;
+
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tranform_translateY {
+    transform: translateY(-70%);
+}
+
+.blur_blob {
+    height: 200px;
+    width: 200px;
+    filter: blur(50px);
+    position: absolute;
+}
+
+.right {
+    top: 0;
+    right: -20%;
+}
+
+.right2 {
+    top: 0;
+    right: -70%;
+}
+
+.left {
+    top: 0;
+    left: -20%;
+}
+
+.left2 {
+    top: -30%;
+    left: -20%;
+}
+
+.left3 {
+    top: -50%;
+    left: -30%;
+    z-index: -1;
+}
+
+.z_index_2 {
+    z-index: 2;
+}
+
+.right3 {
+    top: 0%;
+    right: 0%;
+}
+
+.left4 {
+    top: -8%;
+    left: -3%;
+}
+
+.center {
+    top: 40%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.right4 {
+    top: 0%;
+    right: -15%;
+}
+
+.left5 {
+    top: 0%;
+    left: -15%;
+}
+
+.revolve_1 {
+    animation: revole 200s infinite ease-in-out alternate;
+}
+
+.animation_delay_1 {
+    animation-delay: 6s !important;
+}
+
+@keyframes revole {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+    /* 0% {
+        transform: translate(50%, 100%);
+    }
+
+    20% {
+        transform: translate(100%, 10%);
+    }
+
+    40% {
+        transform: translate(-10%, 80%);
+    }
+
+    60% {
+        transform: translate(80%, -10%);
+    } */
+}
+
+.revolve_2 {
+    animation: circl 20s infinite ease-in-out alternate;
+}
+
+.animation_delay_1 {
+    animation-delay: 1s !important;
+}
+
+@keyframes circl {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.img_hover {
+    transition: 1s !important;
+}
+
+.img_hover:hover {
+    transform: scale(1.5) !important;
+}
+
+.gold path:hover {
+    fill: gold;
+}
+
+.sky_blue path:hover {
+    fill: skyblue;
+}
+
+.green path:hover {
+    fill: greenyellow;
+}
+
+.red path:hover {
+    fill: red;
+}
+
+@media (max-width: 576px) {
+    .text_center {
+        text-align: center;
+    }
+
+    .flex_column {
+        flex-direction: column;
+    }
+
+    .w_100 {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 776px) {
+    .text_center {
+        text-align: center;
+    }
+
+    .flex_column {
+        flex-direction: column;
+    }
+
+    .w_100 {
+        width: 100% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

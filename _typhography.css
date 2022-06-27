@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Syne:wght@800&display=swap');
+
+.ff_syne {
+    font-family: 'Syne',
+        sans-serif;
+    font-weight: 800;
+}
+
+.ff_lato {
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 900;
+}
+
+.ff_lato {
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 700;
+}
+
+.ff_lato {
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 400;
+
+}
+
+/* font-size */
+
+.fs_1 {
+    font-size: var(--fs-1);
+}
+
+.fs_2 {
+    font-size: var(--fs-2);
+}
+
+.fs_3 {
+    font-size: var(--fs-3);
+}
+
+.fs_4 {
+    font-size: var(--fs-4);
+}
+
+/* font-weight */
+
+.fw_1 {
+    font-weight: var(--fw-1);
+}
+
+.fw_2 {
+    font-weight: var(--fw-2);
+}
+
+.fw_3 {
+    font-weight: var(--fw-3);
+}
+
+.fw_4 {
+    font-weight: var(--fw-4);
+}
+
+.fw_5 {
+    font-weight: var(--fw-5);
+}
